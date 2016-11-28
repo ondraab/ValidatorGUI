@@ -1,0 +1,25 @@
+"C:\Program Files (x86)\Python 2.7\python.exe" C:/Users/ondra/Documents/GitHub/ValidatorAPI/GUI.py 1tqn
+[u'NDG', u'1138', u'A']
+{u'15': u'O1L'}
+{u'15': u'O1L'}
+[u'NAG', u'1139', u'A']
+{u'10': u'O1', u'15': u'O1L'}
+[u'NAG', u'1210', u'A']
+{u'10': u'O1', u'15': u'O1L'}
+{u'10': u'O1', u'15': u'O1L'}
+[u'NAG', u'1313', u'A']
+{u'10': u'O1', u'15': u'O1L'}
+{u'10': u'O1', u'15': u'O1L'}
+[u'NAG', u'1314', u'A']
+{u'10': u'O1', u'15': u'O1L'}
+[u'NAG', u'1361', u'A']
+{u'10': u'O1', u'15': u'O1L'}
+{u'10': u'O1', u'15': u'O1L'}
+[u'NAG', u'1362', u'A']
+{u'10': u'O1', u'15': u'O1L'}
+[u'BMA', u'1140', u'A']
+{u'10': u'O1', u'15': u'O1L', u'7': u'O1'}
+[u'BMA', u'1141', u'A']
+{u'10': u'O1', u'15': u'O1L', u'7': u'O1'}
+[u'MAN', u'1142', u'A']
+{u'10': u'O1', u'15': u'O1L', u'7': u'O1'}

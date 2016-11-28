@@ -1,0 +1,962 @@
+{
+  "Version": "1.1.16.5.18a",
+  "Errors": {},
+  "ValidationType": "Database",
+  "MotiveCount": 10,
+  "Models": [
+    {
+      "ModelName": "NDG",
+      "LongName": "2-(acetylamino)-2-deoxy-a-d-glucopyranose",
+      "Formula": "C{8}H{15}N{1}O{6}",
+      "CoordinateSource": "CifModel",
+      "ModelNames": {
+        "1": "C1",
+        "2": "C2",
+        "3": "C3",
+        "4": "C4",
+        "5": "C5",
+        "6": "C6",
+        "7": "C7",
+        "8": "C8",
+        "9": "O",
+        "10": "O3",
+        "11": "O4",
+        "12": "O6",
+        "13": "O7",
+        "14": "N2",
+        "15": "O1L"
+      },
+      "ModelAtomTypes": {
+        "1": "C",
+        "2": "C",
+        "3": "C",
+        "4": "C",
+        "5": "C",
+        "6": "C",
+        "7": "C",
+        "8": "C",
+        "9": "O",
+        "10": "O",
+        "11": "O",
+        "12": "O",
+        "13": "O",
+        "14": "N",
+        "15": "O"
+      },
+      "PlanarAtoms": [],
+      "ChiralAtoms": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ChiralAtomsInfo": {
+        "Planar": [],
+        "Carbon": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "Metal": [],
+        "NonSingleBond": []
+      },
+      "AtomNamingEquivalence": {
+        "Charge": {
+          "H8C1": "H8C1",
+          "H8C2": "H8C1",
+          "H8C3": "H8C1",
+          "H6C1": "H6C1",
+          "H6C2": "H6C1",
+          "HB": "HB",
+          "HC": "HB"
+        },
+        "ChargeIgnoreBondTypes": {
+          "O4": "O4",
+          "O6": "O4"
+        }
+      },
+      "ModelBonds": {
+        "1-2": 1,
+        "1-9": 1,
+        "1-15": 1,
+        "2-3": 1,
+        "2-14": 1,
+        "3-4": 1,
+        "3-10": 1,
+        "4-5": 1,
+        "4-11": 1,
+        "5-6": 1,
+        "5-9": 1,
+        "6-12": 1,
+        "7-8": 1,
+        "7-13": 2,
+        "7-14": 1
+      },
+      "Summary": {
+        "Analyzed": 1,
+        "HasAll": 1,
+        "HasAll_BadChirality": 0,
+        "HasAll_BadChirality_Carbon": 0,
+        "HasAll_BadChirality_Metal": 0,
+        "HasAll_BadChirality_NonSingleBond": 0,
+        "HasAll_BadChirality_Other": 0,
+        "HasAll_BadChirality_Planar": 0,
+        "HasAll_Foreign": 1,
+        "HasAll_GoodChirality": 1,
+        "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors": 1,
+        "HasAll_NameMismatch": 0,
+        "HasAll_NameMismatch_ChargeEquiv": 0,
+        "HasAll_NameMismatch_ChargeEquivIgnoreBondType": 0,
+        "HasAll_NameMismatch_NonChargeEquiv": 0,
+        "HasAll_NameMismatch_NonChargeEquivIgnoreBondType": 0,
+        "HasAll_Substitutions": 1,
+        "HasAll_WrongBonds": 0,
+        "HasAll_ZeroRmsd": 0,
+        "Has_AlternateLocation": 0,
+        "Has_NamingIssue_Duplicates": 0,
+        "Has_NamingIssue_NonBoundarySubstitutionOrForeign": 0,
+        "Has_NamingIssue_NonIsomorphic": 0,
+        "Missing": 0,
+        "Missing_Atoms": 0,
+        "Missing_Degenerate": 0,
+        "Missing_Rings": 0,
+        "NotAnalyzed": 0
+      },
+      "StructureNames": [
+        "3d11"
+      ],
+      "NotAnalyzedNames": [],
+      "Entries": [
+        {
+          "ModelName": "NDG",
+          "Id": "3d11_0_3432",
+          "State": "Validated",
+          "Flags": [
+            "Analyzed",
+            "HasAll",
+            "HasAll_Foreign",
+            "HasAll_GoodChirality",
+            "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors",
+            "HasAll_Substitutions"
+          ],
+          "MainResidue": "NDG 1138 A",
+          "ResidueCount": 2,
+          "Residues": [
+            "ASN 306 A",
+            "NDG 1138 A"
+          ],
+          "MissingAtomCount": 0,
+          "MissingRingCount": 0,
+          "WrongBondCount": 0,
+          "HasBondDiscrepancy": false,
+          "NameMismatchCount": 0,
+          "ForeignAtomCount": 1,
+          "ChiralityMismatchCount": 0,
+          "SubstitutionCount": 1,
+          "UnmatchedMotiveAtomCount": 4,
+          "MissingAtoms": [],
+          "MissingRings": "",
+          "WrongBonds": [],
+          "NameMismatches": {},
+          "NameMismatchFlags": {},
+          "ForeignAtoms": {
+            "15": "ND2 N 993, ASN 306 A"
+          },
+          "ChiralityMismatches": {},
+          "Substitutions": {
+            "15": "ND2 N 993"
+          },
+          "AlternateLocationCount": 0,
+          "DuplicateNames": [],
+          "NonBoundarySubstitutionAndForeignAtoms": [],
+          "UnmatchedModelNames": [
+            "O1L"
+          ],
+          "ModelRmsd": 0.33
+        }
+      ],
+      "Warnings": {},
+      "Errors": {}
+    },
+    {
+      "ModelName": "NAG",
+      "LongName": "n-acetyl-d-glucosamine",
+      "Formula": "C{8}H{15}N{1}O{6}",
+      "CoordinateSource": "CifModel",
+      "ModelNames": {
+        "1": "C1",
+        "2": "C2",
+        "3": "C3",
+        "4": "C4",
+        "5": "C5",
+        "6": "C6",
+        "7": "C7",
+        "8": "C8",
+        "9": "N2",
+        "10": "O1",
+        "11": "O3",
+        "12": "O4",
+        "13": "O5",
+        "14": "O6",
+        "15": "O7"
+      },
+      "ModelAtomTypes": {
+        "1": "C",
+        "2": "C",
+        "3": "C",
+        "4": "C",
+        "5": "C",
+        "6": "C",
+        "7": "C",
+        "8": "C",
+        "9": "N",
+        "10": "O",
+        "11": "O",
+        "12": "O",
+        "13": "O",
+        "14": "O",
+        "15": "O"
+      },
+      "PlanarAtoms": [],
+      "ChiralAtoms": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ChiralAtomsInfo": {
+        "Planar": [],
+        "Carbon": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "Metal": [],
+        "NonSingleBond": []
+      },
+      "AtomNamingEquivalence": {
+        "Charge": {
+          "H81": "H81",
+          "H82": "H81",
+          "H83": "H81",
+          "H61": "H61",
+          "H62": "H61",
+          "HO3": "HO3",
+          "HO4": "HO3"
+        },
+        "ChargeIgnoreBondTypes": {
+          "O4": "O4",
+          "O6": "O4"
+        }
+      },
+      "ModelBonds": {
+        "1-2": 1,
+        "1-10": 1,
+        "1-13": 1,
+        "2-3": 1,
+        "2-9": 1,
+        "3-4": 1,
+        "3-11": 1,
+        "4-5": 1,
+        "4-12": 1,
+        "5-6": 1,
+        "5-13": 1,
+        "6-14": 1,
+        "7-8": 1,
+        "7-9": 1,
+        "7-15": 2
+      },
+      "Summary": {
+        "Analyzed": 6,
+        "HasAll": 6,
+        "HasAll_BadChirality": 1,
+        "HasAll_BadChirality_Carbon": 1,
+        "HasAll_BadChirality_Metal": 0,
+        "HasAll_BadChirality_NonSingleBond": 0,
+        "HasAll_BadChirality_Other": 0,
+        "HasAll_BadChirality_Planar": 0,
+        "HasAll_Foreign": 6,
+        "HasAll_GoodChirality": 5,
+        "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors": 5,
+        "HasAll_NameMismatch": 0,
+        "HasAll_NameMismatch_ChargeEquiv": 0,
+        "HasAll_NameMismatch_ChargeEquivIgnoreBondType": 0,
+        "HasAll_NameMismatch_NonChargeEquiv": 0,
+        "HasAll_NameMismatch_NonChargeEquivIgnoreBondType": 0,
+        "HasAll_Substitutions": 3,
+        "HasAll_WrongBonds": 0,
+        "HasAll_ZeroRmsd": 0,
+        "Has_AlternateLocation": 0,
+        "Has_NamingIssue_Duplicates": 0,
+        "Has_NamingIssue_NonBoundarySubstitutionOrForeign": 0,
+        "Has_NamingIssue_NonIsomorphic": 0,
+        "Missing": 0,
+        "Missing_Atoms": 0,
+        "Missing_Degenerate": 0,
+        "Missing_Rings": 0,
+        "NotAnalyzed": 0
+      },
+      "StructureNames": [
+        "3d11"
+      ],
+      "NotAnalyzedNames": [],
+      "Entries": [
+        {
+          "ModelName": "NAG",
+          "Id": "3d11_1_3446",
+          "State": "Validated",
+          "Flags": [
+            "Analyzed",
+            "HasAll",
+            "HasAll_Foreign",
+            "HasAll_GoodChirality",
+            "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors"
+          ],
+          "MainResidue": "NAG 1139 A",
+          "ResidueCount": 2,
+          "Residues": [
+            "NDG 1138 A",
+            "NAG 1139 A"
+          ],
+          "MissingAtomCount": 0,
+          "MissingRingCount": 0,
+          "WrongBondCount": 0,
+          "HasBondDiscrepancy": false,
+          "NameMismatchCount": 0,
+          "ForeignAtomCount": 1,
+          "ChiralityMismatchCount": 0,
+          "SubstitutionCount": 0,
+          "UnmatchedMotiveAtomCount": 4,
+          "MissingAtoms": [],
+          "MissingRings": "",
+          "WrongBonds": [],
+          "NameMismatches": {},
+          "NameMismatchFlags": {},
+          "ForeignAtoms": {
+            "10": "O4 O 3442, NDG 1138 A"
+          },
+          "ChiralityMismatches": {},
+          "Substitutions": {},
+          "AlternateLocationCount": 0,
+          "DuplicateNames": [],
+          "NonBoundarySubstitutionAndForeignAtoms": [],
+          "UnmatchedModelNames": [
+            "O1"
+          ],
+          "ModelRmsd": 0.37
+        },
+        {
+          "ModelName": "NAG",
+          "Id": "3d11_5_3362",
+          "State": "Validated",
+          "Flags": [
+            "Analyzed",
+            "HasAll",
+            "HasAll_BadChirality",
+            "HasAll_BadChirality_Carbon",
+            "HasAll_Foreign",
+            "HasAll_Substitutions"
+          ],
+          "MainResidue": "NAG 1210 A",
+          "ResidueCount": 2,
+          "Residues": [
+            "ASN 378 A",
+            "NAG 1210 A"
+          ],
+          "MissingAtomCount": 0,
+          "MissingRingCount": 0,
+          "WrongBondCount": 0,
+          "HasBondDiscrepancy": false,
+          "NameMismatchCount": 0,
+          "ForeignAtomCount": 1,
+          "ChiralityMismatchCount": 1,
+          "SubstitutionCount": 1,
+          "UnmatchedMotiveAtomCount": 1,
+          "MissingAtoms": [],
+          "MissingRings": "",
+          "WrongBonds": [],
+          "NameMismatches": {},
+          "NameMismatchFlags": {},
+          "ForeignAtoms": {
+            "10": "ND2 N 1564, ASN 378 A"
+          },
+          "ChiralityMismatches": {
+            "1": "C1 C 3362"
+          },
+          "Substitutions": {
+            "10": "ND2 N 1564"
+          },
+          "AlternateLocationCount": 0,
+          "DuplicateNames": [],
+          "NonBoundarySubstitutionAndForeignAtoms": [],
+          "UnmatchedModelNames": [
+            "O1"
+          ],
+          "ModelRmsd": 0.913
+        },
+        {
+          "ModelName": "NAG",
+          "Id": "3d11_6_3376",
+          "State": "Validated",
+          "Flags": [
+            "Analyzed",
+            "HasAll",
+            "HasAll_Foreign",
+            "HasAll_GoodChirality",
+            "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors",
+            "HasAll_Substitutions"
+          ],
+          "MainResidue": "NAG 1313 A",
+          "ResidueCount": 2,
+          "Residues": [
+            "ASN 481 A",
+            "NAG 1313 A"
+          ],
+          "MissingAtomCount": 0,
+          "MissingRingCount": 0,
+          "WrongBondCount": 0,
+          "HasBondDiscrepancy": false,
+          "NameMismatchCount": 0,
+          "ForeignAtomCount": 1,
+          "ChiralityMismatchCount": 0,
+          "SubstitutionCount": 1,
+          "UnmatchedMotiveAtomCount": 4,
+          "MissingAtoms": [],
+          "MissingRings": "",
+          "WrongBonds": [],
+          "NameMismatches": {},
+          "NameMismatchFlags": {},
+          "ForeignAtoms": {
+            "10": "ND2 N 2386, ASN 481 A"
+          },
+          "ChiralityMismatches": {},
+          "Substitutions": {
+            "10": "ND2 N 2386"
+          },
+          "AlternateLocationCount": 0,
+          "DuplicateNames": [],
+          "NonBoundarySubstitutionAndForeignAtoms": [],
+          "UnmatchedModelNames": [
+            "O1"
+          ],
+          "ModelRmsd": 0.876
+        },
+        {
+          "ModelName": "NAG",
+          "Id": "3d11_7_3390",
+          "State": "Validated",
+          "Flags": [
+            "Analyzed",
+            "HasAll",
+            "HasAll_Foreign",
+            "HasAll_GoodChirality",
+            "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors"
+          ],
+          "MainResidue": "NAG 1314 A",
+          "ResidueCount": 2,
+          "Residues": [
+            "NAG 1313 A",
+            "NAG 1314 A"
+          ],
+          "MissingAtomCount": 0,
+          "MissingRingCount": 0,
+          "WrongBondCount": 0,
+          "HasBondDiscrepancy": false,
+          "NameMismatchCount": 0,
+          "ForeignAtomCount": 1,
+          "ChiralityMismatchCount": 0,
+          "SubstitutionCount": 0,
+          "UnmatchedMotiveAtomCount": 1,
+          "MissingAtoms": [],
+          "MissingRings": "",
+          "WrongBonds": [],
+          "NameMismatches": {},
+          "NameMismatchFlags": {},
+          "ForeignAtoms": {
+            "10": "O4 O 3386, NAG 1313 A"
+          },
+          "ChiralityMismatches": {},
+          "Substitutions": {},
+          "AlternateLocationCount": 0,
+          "DuplicateNames": [],
+          "NonBoundarySubstitutionAndForeignAtoms": [],
+          "UnmatchedModelNames": [
+            "O1"
+          ],
+          "ModelRmsd": 0.926
+        },
+        {
+          "ModelName": "NAG",
+          "Id": "3d11_8_3404",
+          "State": "Validated",
+          "Flags": [
+            "Analyzed",
+            "HasAll",
+            "HasAll_Foreign",
+            "HasAll_GoodChirality",
+            "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors",
+            "HasAll_Substitutions"
+          ],
+          "MainResidue": "NAG 1361 A",
+          "ResidueCount": 2,
+          "Residues": [
+            "ASN 529 A",
+            "NAG 1361 A"
+          ],
+          "MissingAtomCount": 0,
+          "MissingRingCount": 0,
+          "WrongBondCount": 0,
+          "HasBondDiscrepancy": false,
+          "NameMismatchCount": 0,
+          "ForeignAtomCount": 1,
+          "ChiralityMismatchCount": 0,
+          "SubstitutionCount": 1,
+          "UnmatchedMotiveAtomCount": 4,
+          "MissingAtoms": [],
+          "MissingRings": "",
+          "WrongBonds": [],
+          "NameMismatches": {},
+          "NameMismatchFlags": {},
+          "ForeignAtoms": {
+            "10": "ND2 N 2768, ASN 529 A"
+          },
+          "ChiralityMismatches": {},
+          "Substitutions": {
+            "10": "ND2 N 2768"
+          },
+          "AlternateLocationCount": 0,
+          "DuplicateNames": [],
+          "NonBoundarySubstitutionAndForeignAtoms": [],
+          "UnmatchedModelNames": [
+            "O1"
+          ],
+          "ModelRmsd": 0.949
+        },
+        {
+          "ModelName": "NAG",
+          "Id": "3d11_9_3418",
+          "State": "Validated",
+          "Flags": [
+            "Analyzed",
+            "HasAll",
+            "HasAll_Foreign",
+            "HasAll_GoodChirality",
+            "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors"
+          ],
+          "MainResidue": "NAG 1362 A",
+          "ResidueCount": 2,
+          "Residues": [
+            "NAG 1361 A",
+            "NAG 1362 A"
+          ],
+          "MissingAtomCount": 0,
+          "MissingRingCount": 0,
+          "WrongBondCount": 0,
+          "HasBondDiscrepancy": false,
+          "NameMismatchCount": 0,
+          "ForeignAtomCount": 1,
+          "ChiralityMismatchCount": 0,
+          "SubstitutionCount": 0,
+          "UnmatchedMotiveAtomCount": 1,
+          "MissingAtoms": [],
+          "MissingRings": "",
+          "WrongBonds": [],
+          "NameMismatches": {},
+          "NameMismatchFlags": {},
+          "ForeignAtoms": {
+            "10": "O4 O 3414, NAG 1361 A"
+          },
+          "ChiralityMismatches": {},
+          "Substitutions": {},
+          "AlternateLocationCount": 0,
+          "DuplicateNames": [],
+          "NonBoundarySubstitutionAndForeignAtoms": [],
+          "UnmatchedModelNames": [
+            "O1"
+          ],
+          "ModelRmsd": 0.727
+        }
+      ],
+      "Warnings": {},
+      "Errors": {}
+    },
+    {
+      "ModelName": "BMA",
+      "LongName": "beta-d-mannose",
+      "Formula": "C{6}H{12}O{6}",
+      "CoordinateSource": "CifModel",
+      "ModelNames": {
+        "1": "C1",
+        "2": "C2",
+        "3": "C3",
+        "4": "C4",
+        "5": "C5",
+        "6": "C6",
+        "7": "O1",
+        "8": "O2",
+        "9": "O3",
+        "10": "O4",
+        "11": "O5",
+        "12": "O6"
+      },
+      "ModelAtomTypes": {
+        "1": "C",
+        "2": "C",
+        "3": "C",
+        "4": "C",
+        "5": "C",
+        "6": "C",
+        "7": "O",
+        "8": "O",
+        "9": "O",
+        "10": "O",
+        "11": "O",
+        "12": "O"
+      },
+      "PlanarAtoms": [],
+      "ChiralAtoms": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ChiralAtomsInfo": {
+        "Planar": [],
+        "Carbon": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "Metal": [],
+        "NonSingleBond": []
+      },
+      "AtomNamingEquivalence": {
+        "Charge": {
+          "H61": "H61",
+          "H62": "H61",
+          "H4": "H4",
+          "H5": "H4",
+          "HO3": "HO3",
+          "HO4": "HO3"
+        },
+        "ChargeIgnoreBondTypes": {
+          "O4": "O4",
+          "O6": "O4"
+        }
+      },
+      "ModelBonds": {
+        "1-2": 1,
+        "1-7": 1,
+        "1-11": 1,
+        "2-3": 1,
+        "2-8": 1,
+        "3-4": 1,
+        "3-9": 1,
+        "4-5": 1,
+        "4-10": 1,
+        "5-6": 1,
+        "5-11": 1,
+        "6-12": 1
+      },
+      "Summary": {
+        "Analyzed": 2,
+        "HasAll": 2,
+        "HasAll_BadChirality": 0,
+        "HasAll_BadChirality_Carbon": 0,
+        "HasAll_BadChirality_Metal": 0,
+        "HasAll_BadChirality_NonSingleBond": 0,
+        "HasAll_BadChirality_Other": 0,
+        "HasAll_BadChirality_Planar": 0,
+        "HasAll_Foreign": 2,
+        "HasAll_GoodChirality": 2,
+        "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors": 2,
+        "HasAll_NameMismatch": 0,
+        "HasAll_NameMismatch_ChargeEquiv": 0,
+        "HasAll_NameMismatch_ChargeEquivIgnoreBondType": 0,
+        "HasAll_NameMismatch_NonChargeEquiv": 0,
+        "HasAll_NameMismatch_NonChargeEquivIgnoreBondType": 0,
+        "HasAll_Substitutions": 0,
+        "HasAll_WrongBonds": 0,
+        "HasAll_ZeroRmsd": 0,
+        "Has_AlternateLocation": 0,
+        "Has_NamingIssue_Duplicates": 0,
+        "Has_NamingIssue_NonBoundarySubstitutionOrForeign": 0,
+        "Has_NamingIssue_NonIsomorphic": 0,
+        "Missing": 0,
+        "Missing_Atoms": 0,
+        "Missing_Degenerate": 0,
+        "Missing_Rings": 0,
+        "NotAnalyzed": 0
+      },
+      "StructureNames": [
+        "3d11"
+      ],
+      "NotAnalyzedNames": [],
+      "Entries": [
+        {
+          "ModelName": "BMA",
+          "Id": "3d11_2_3460",
+          "State": "Validated",
+          "Flags": [
+            "Analyzed",
+            "HasAll",
+            "HasAll_Foreign",
+            "HasAll_GoodChirality",
+            "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors"
+          ],
+          "MainResidue": "BMA 1140 A",
+          "ResidueCount": 2,
+          "Residues": [
+            "NAG 1139 A",
+            "BMA 1140 A"
+          ],
+          "MissingAtomCount": 0,
+          "MissingRingCount": 0,
+          "WrongBondCount": 0,
+          "HasBondDiscrepancy": false,
+          "NameMismatchCount": 0,
+          "ForeignAtomCount": 1,
+          "ChiralityMismatchCount": 0,
+          "SubstitutionCount": 0,
+          "UnmatchedMotiveAtomCount": 7,
+          "MissingAtoms": [],
+          "MissingRings": "",
+          "WrongBonds": [],
+          "NameMismatches": {},
+          "NameMismatchFlags": {},
+          "ForeignAtoms": {
+            "7": "O4 O 3456, NAG 1139 A"
+          },
+          "ChiralityMismatches": {},
+          "Substitutions": {},
+          "AlternateLocationCount": 0,
+          "DuplicateNames": [],
+          "NonBoundarySubstitutionAndForeignAtoms": [],
+          "UnmatchedModelNames": [
+            "O1"
+          ],
+          "ModelRmsd": 0.152
+        },
+        {
+          "ModelName": "BMA",
+          "Id": "3d11_3_3471",
+          "State": "Validated",
+          "Flags": [
+            "Analyzed",
+            "HasAll",
+            "HasAll_Foreign",
+            "HasAll_GoodChirality",
+            "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors"
+          ],
+          "MainResidue": "BMA 1141 A",
+          "ResidueCount": 2,
+          "Residues": [
+            "BMA 1140 A",
+            "BMA 1141 A"
+          ],
+          "MissingAtomCount": 0,
+          "MissingRingCount": 0,
+          "WrongBondCount": 0,
+          "HasBondDiscrepancy": false,
+          "NameMismatchCount": 0,
+          "ForeignAtomCount": 1,
+          "ChiralityMismatchCount": 0,
+          "SubstitutionCount": 0,
+          "UnmatchedMotiveAtomCount": 1,
+          "MissingAtoms": [],
+          "MissingRings": "",
+          "WrongBonds": [],
+          "NameMismatches": {},
+          "NameMismatchFlags": {},
+          "ForeignAtoms": {
+            "7": "O3 O 3467, BMA 1140 A"
+          },
+          "ChiralityMismatches": {},
+          "Substitutions": {},
+          "AlternateLocationCount": 0,
+          "DuplicateNames": [],
+          "NonBoundarySubstitutionAndForeignAtoms": [],
+          "UnmatchedModelNames": [
+            "O1"
+          ],
+          "ModelRmsd": 1.042
+        }
+      ],
+      "Warnings": {},
+      "Errors": {}
+    },
+    {
+      "ModelName": "MAN",
+      "LongName": "alpha-d-mannose",
+      "Formula": "C{6}H{12}O{6}",
+      "CoordinateSource": "CifModel",
+      "ModelNames": {
+        "1": "C1",
+        "2": "C2",
+        "3": "C3",
+        "4": "C4",
+        "5": "C5",
+        "6": "C6",
+        "7": "O1",
+        "8": "O2",
+        "9": "O3",
+        "10": "O4",
+        "11": "O5",
+        "12": "O6"
+      },
+      "ModelAtomTypes": {
+        "1": "C",
+        "2": "C",
+        "3": "C",
+        "4": "C",
+        "5": "C",
+        "6": "C",
+        "7": "O",
+        "8": "O",
+        "9": "O",
+        "10": "O",
+        "11": "O",
+        "12": "O"
+      },
+      "PlanarAtoms": [],
+      "ChiralAtoms": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ChiralAtomsInfo": {
+        "Planar": [],
+        "Carbon": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "Metal": [],
+        "NonSingleBond": []
+      },
+      "AtomNamingEquivalence": {
+        "Charge": {
+          "H61": "H61",
+          "H62": "H61",
+          "H4": "H4",
+          "H5": "H4",
+          "HO3": "HO3",
+          "HO4": "HO3"
+        },
+        "ChargeIgnoreBondTypes": {
+          "O4": "O4",
+          "O6": "O4"
+        }
+      },
+      "ModelBonds": {
+        "1-2": 1,
+        "1-7": 1,
+        "1-11": 1,
+        "2-3": 1,
+        "2-8": 1,
+        "3-4": 1,
+        "3-9": 1,
+        "4-5": 1,
+        "4-10": 1,
+        "5-6": 1,
+        "5-11": 1,
+        "6-12": 1
+      },
+      "Summary": {
+        "Analyzed": 1,
+        "HasAll": 1,
+        "HasAll_BadChirality": 0,
+        "HasAll_BadChirality_Carbon": 0,
+        "HasAll_BadChirality_Metal": 0,
+        "HasAll_BadChirality_NonSingleBond": 0,
+        "HasAll_BadChirality_Other": 0,
+        "HasAll_BadChirality_Planar": 0,
+        "HasAll_Foreign": 1,
+        "HasAll_GoodChirality": 1,
+        "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors": 1,
+        "HasAll_NameMismatch": 0,
+        "HasAll_NameMismatch_ChargeEquiv": 0,
+        "HasAll_NameMismatch_ChargeEquivIgnoreBondType": 0,
+        "HasAll_NameMismatch_NonChargeEquiv": 0,
+        "HasAll_NameMismatch_NonChargeEquivIgnoreBondType": 0,
+        "HasAll_Substitutions": 0,
+        "HasAll_WrongBonds": 0,
+        "HasAll_ZeroRmsd": 0,
+        "Has_AlternateLocation": 0,
+        "Has_NamingIssue_Duplicates": 0,
+        "Has_NamingIssue_NonBoundarySubstitutionOrForeign": 0,
+        "Has_NamingIssue_NonIsomorphic": 0,
+        "Missing": 0,
+        "Missing_Atoms": 0,
+        "Missing_Degenerate": 0,
+        "Missing_Rings": 0,
+        "NotAnalyzed": 0
+      },
+      "StructureNames": [
+        "3d11"
+      ],
+      "NotAnalyzedNames": [],
+      "Entries": [
+        {
+          "ModelName": "MAN",
+          "Id": "3d11_4_3482",
+          "State": "Validated",
+          "Flags": [
+            "Analyzed",
+            "HasAll",
+            "HasAll_Foreign",
+            "HasAll_GoodChirality",
+            "HasAll_GoodChirality_IgnorePlanarAndNonSingleBondErrors"
+          ],
+          "MainResidue": "MAN 1142 A",
+          "ResidueCount": 2,
+          "Residues": [
+            "BMA 1140 A",
+            "MAN 1142 A"
+          ],
+          "MissingAtomCount": 0,
+          "MissingRingCount": 0,
+          "WrongBondCount": 0,
+          "HasBondDiscrepancy": false,
+          "NameMismatchCount": 0,
+          "ForeignAtomCount": 1,
+          "ChiralityMismatchCount": 0,
+          "SubstitutionCount": 0,
+          "UnmatchedMotiveAtomCount": 1,
+          "MissingAtoms": [],
+          "MissingRings": "",
+          "WrongBonds": [],
+          "NameMismatches": {},
+          "NameMismatchFlags": {},
+          "ForeignAtoms": {
+            "7": "O6 O 3470, BMA 1140 A"
+          },
+          "ChiralityMismatches": {},
+          "Substitutions": {},
+          "AlternateLocationCount": 0,
+          "DuplicateNames": [],
+          "NonBoundarySubstitutionAndForeignAtoms": [],
+          "UnmatchedModelNames": [
+            "O1"
+          ],
+          "ModelRmsd": 1.183
+        }
+      ],
+      "Warnings": {},
+      "Errors": {}
+    }
+  ]
+}
