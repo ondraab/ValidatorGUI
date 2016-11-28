@@ -1,4 +1,5 @@
-class Residue:
+class Entry:
+    # Stores information about individual entry #
 
     main_res = []
     foreign_atoms = []
@@ -16,7 +17,6 @@ class Residue:
 
         else:
             self.state = True
-
 
         self.main_res = (model_entry["MainResidue"].split(" ", 3))
 

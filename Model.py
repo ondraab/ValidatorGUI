@@ -1,6 +1,8 @@
-import Residue
+import Entry
+
 
 class Model:
+    # Stores information about individual model #
 
     entry_count = 0
     model_names_list = []
@@ -8,8 +10,6 @@ class Model:
     model_atom_names = []
 
     def __init__(self, model):
-
-
         self.model_names_list.append(model["ModelName"])
 
         self.model_atom_names = model["ModelNames"]
@@ -18,4 +18,4 @@ class Model:
         for entry in model["Entries"]:
             self.entries_list.append(entry)
             self.entry_count += 1
-            Residue.Residue(entry)
+            Entry.Entry(entry)

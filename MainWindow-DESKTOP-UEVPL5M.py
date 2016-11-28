@@ -283,7 +283,7 @@ class MainWindow():
             tkMessageBox.showerror("Error", self.downloaded_object.error)
             return
         else:
-            self.downloaded_object.download_entry(self.entry.get())
+            self.downloaded_object.scan_json(self.entry.get())
             self.add_option(self.entry.get())
 
 

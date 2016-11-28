@@ -1,7 +1,7 @@
 import ValidatorManager
 import sys
 import argparse
-import Residue
+import Entry
 
 print "ValidatorAPI - This program validates PDBs from ValidatorDB database\n"
 
